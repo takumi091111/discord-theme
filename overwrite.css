@@ -12,6 +12,10 @@
     background-color: #0b0d0e !important;
 }
 
+.guilds-add-inner {
+    top: -3px;
+}
+
 .username-wrapper, .member-username-inner {
     font-family: 'Segoe UI';
 }
