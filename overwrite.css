@@ -31,6 +31,11 @@ code {
     border: none;
 }
 
+.divider span {
+    background-color: #0b0d0e !important;
+    border-radius: 0 !important;
+}
+
 .divider span, .timestamp {
     color: #ccc !important;
 }
