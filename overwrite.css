@@ -1,0 +1,50 @@
+/*  My Discord Theme
+
+    # required
+    
+    * Cica Font
+    (https://github.com/miiton/Cica)
+    * Copy Code Plugin by Finicalmist
+    (https://github.com/Finicalmist/CopyCode)
+*/
+
+.username-wrapper, .member-username-inner {
+    font-family: 'Segoe UI';
+}
+
+code {
+    background-color: #0b0d0e !important;
+    border: none;
+    font-family: 'CicaE';
+}
+
+.comment, .message-text, .message > .body, .comment > .old-h2 {
+    background-color: #0b0d0e;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar {
+    width: 8px;
+}
+
+.theme-dark .message-group .comment .markup pre {
+    background: #0b0d0e;
+    border: none;
+}
+
+.divider span, .timestamp {
+    color: #ccc !important;
+}
+
+.upload-modal .comment{
+    background-color: initial;
+    border-color: rgba(0,0,0,0);
+}
+
+.copybutton {
+    background-color: #0b0d0e !important;
+    border: 1px solid #222 !important;
+}
+
+.copybutton:hover {
+    color: #fff !important;
+}
