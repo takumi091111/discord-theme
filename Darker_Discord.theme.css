@@ -1,12 +1,12 @@
 //META{"name":"Darker_Discord","description":"A darker more softer and modern look of discord.","author":"Sweds","version":"1.0.0"}*//{}
 
 :root{
---main-color: #0b0d0e;
---accent-color: #242529;
+    --main-color: #0b0d0e;
+    --accent-color: #242529;
 }
 
 div>*:not(code) {
-  font-family: 'CicaE', 'Segoe UI', sans-serif;
+    font-family: 'CicaE', 'Segoe UI', sans-serif;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner a,
@@ -316,7 +316,7 @@ h2>.username-wrapper>.user-name:not(:hover){
 }
 
 .message-group.hide-overflow>.avatar-large{
-     transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 .message-group.hide-overflow>.avatar-large:hover{
