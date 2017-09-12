@@ -8,11 +8,16 @@
     (https://github.com/Finicalmist/CopyCode)
 */
 
+.channels-wrap {
+    background-color: #0b0d0e !important;
+}
+
 .username-wrapper, .member-username-inner {
     font-family: 'Segoe UI';
 }
 
 code {
+    font-size: 1.2em;
     background-color: #0b0d0e !important;
     border: none;
     font-family: 'CicaE';
@@ -52,4 +57,8 @@ code {
 
 .copybutton:hover {
     color: #fff !important;
+}
+
+.inner-3if5cm {
+    background-color: rgba(0,0,0,0) !important;
 }
