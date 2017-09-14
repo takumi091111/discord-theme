@@ -1,12 +1,12 @@
 //META{"name":"Darker_Discord","description":"A darker more softer and modern look of discord.","author":"Sweds","version":"1.0.0"}*//{}
 
 :root{
-    --main-color: #0b0d0e;
-    --accent-color: #242529;
+--main-color: #0b0d0e;
+--accent-color: #242529;
 }
 
 div>*:not(code) {
-    font-family: 'CicaE', 'Segoe UI', sans-serif;
+  font-family: 'CicaE', 'Segoe UI', sans-serif;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner a,
@@ -201,32 +201,8 @@ div>*:not(code) {
     background-size: 100%;
 }
 
-.nameDefault-1I0lx8:before{
-    content: '<';
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.nameDefault-1I0lx8:after{
-    content: '>';
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 .scroller-fzNley.channel-members>h2:before{
     content: 'Role: ';
-}
-
-.nameDefaultVoice-1swZoh.name-2SL4ev.overflowEllipsis-3Rxxjf:before{
-    content: '<';
-    font-weight: bold;
-    color: #727666;
-}
-
-.nameDefaultVoice-1swZoh.name-2SL4ev.overflowEllipsis-3Rxxjf:after{
-    content: '>';
-    font-weight: bold;
-    color: #727666;
 }
 
 .nameDefaultVoice-1swZoh.name-2SL4ev.overflowEllipsis-3Rxxjf{
@@ -274,18 +250,9 @@ h2>.username-wrapper>.user-name:not(:hover){
     content: '⮟ '
 }
 
-.nameSpeaking-3ROx9q.margin-reset:before{
-    content: '<';
+.nameSpeaking-3ROx9q.margin-reset{
     font-weight: bold;
-    text-decoration: underline;
 }
-
-.nameSpeaking-3ROx9q.margin-reset:after{
-    content: '>';
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 
 .channel-name:before{
     display: none;
@@ -316,7 +283,7 @@ h2>.username-wrapper>.user-name:not(:hover){
 }
 
 .message-group.hide-overflow>.avatar-large{
-    transition: all 0.4s;
+     transition: all 0.4s;
 }
 
 .message-group.hide-overflow>.avatar-large:hover{
